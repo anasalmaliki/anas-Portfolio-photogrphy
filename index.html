@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>triple</title> 
+    <!-- Fontawesome -->
+   
+<script src="https://unpkg.com/scrollreveal"></script>
+
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- Style-->
+    <link rel="stylesheet" href="style.css">
+    <!-- index.html -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+    <!-- ... مقتطفات أخرى ... -->
+    <script src="navigation.js" defer></script>
+
+
+</head>
+<body>
+  
+    <!--rask start-->
+    <header id="home" >
+        <div class="navbar">
+            <nav>
+                <a href="#home" id="logo">Anas Almaliki </a>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#galliry">Gallery</a></li>
+                    <li><a href="#film">Film Frame</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+
+        <div class="header-content">
+            <div class="content-text">
+                <p><span class="text-primary"></span></p>
+                <h1>Anas Almaliki</h1>
+                <p class="title">Fazla ciddiye almayın bu hayatı. Bir gün her şey fotoğraflarda kalacak</p>
+                <div class="social">
+                   
+                </div>
+                <a href="#galliry" class="btn-primary">Gallery <i class="fa-solid fa-circle-arrow-down"></i></a>
+            </div>
+            
+        </div>
+    </header>
+    <!--rask end-->
+    <!--galliry start-->
+        <section id="galliry"   data-aos="fade-up">
+            <h2 data-aos="fade-left">Gallery</h2>
+            <div class="slider" data-aos="fade-right" >
+                <div class="list">
+                    <div class="item">
+                        <img src="foto/foto1.jpg" >
+                    </div>
+                    <div class="item">
+                        <img src="foto/photo2.jpg" >
+                    </div>
+                    <div class="item">
+                        <img src="foto/photo3.jpg" >
+                    </div>
+                    <div class="item">
+                        <img src="foto/photo4.jpg" >
+                    </div>
+                    <div class="item">
+                        <img src="foto/photo5.jpg" >
+                    </div>
+                    <div class="item">
+                        <img src="foto/poto6.jpg" >
+                    </div>
+                </div>
+                <!--button prev and next-->
+                <div class="buttons">
+                    <button id="prev"><</button>
+                    <button id="next">></button>
+                </div>
+                <!-- dots (6)-->
+                <ul class="dots">
+                    <li class="active"></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                </ul>
+            </div>
+            <script src="app.js"></script>
+        </section>
+    <!--galliry end-->
+    <!--film start-->
+    <section id="film"  data-aos="fade-up" >
+        <h2 data-aos="fade-left">Film Frame</h2>
+        <div class="sliderf" data-aos="fade-right" data-aos-duration="530" data-aos-delay="200">
+            <div class="listf">
+                <div class="itemf">
+                    <img src="foto/haasan.bmp" >
+                </div>
+                <div class="itemf">
+                    <img src="foto/aa.bmp" >
+                </div>
+                <div class="itemf">
+                    <img src="foto/f3.png" >
+                </div>
+                <div class="itemf">
+                    <img src="foto/f4.png" >
+                </div>
+                <div class="itemf">
+                    <img src="foto/f5.png" >
+                </div>
+                <div class="itemf">
+                    <img src="foto/f6.png" >
+                </div>
+            </div>
+            <!--button prev and next-->
+            <div class="buttonsf">
+                <button id="prevf"><</button>
+                <button id="nextf">></button>
+            </div>
+            <!-- dotsf (6)-->
+            <ul class="dotsf">
+                <li class="activf"></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+            </ul>
+        </div>
+        <script src="app1.js"></script>
+    </section>
+<!--film end-->
+    <!--about start-->
+    <section id="about" data-aos="zoom-out-down">
+        <section class="about">
+            <div class="main"> 
+                <img src="foto/meabout.jpg"  data-aos="fade-right"  data-aos-duration="530" data-aos-delay="200">
+                <div class="about-text">
+                    <h1 data-aos="fade-left">Anas Al-maliki</h1>
+                    <h5 data-aos="zoom-out-right">Photographer <span>& Filmmaker</span></h5>
+                    <p data-aos="fade-left" data-aos-duration="730" data-aos-delay="600">Hello, my name is anas .I’m 2 years old. I’m a software engineering  student in Istanbul. My passion towards Photography&filmmaking 
+                    started  in 2018 and this passion still growing . I participated in many projects and created more by myself . always looking forward to achieve more creative high quality content . If you are interested in collaborating or viewing my work, I am here to talk and collaborate. Feel free to reach out!”   
+                    </p>
+                    
+                    <a href="#galliry" class="btn-primary" data-aos="zoom-in-up" data-aos-duration="830" data-aos-delay="750">Gallery</a>
+                    <a href="#contact" class="btn-primary" data-aos="zoom-in-up" data-aos-duration="830" data-aos-delay="750">let's Talk <i class="fa-solid fa-circle-arrow-down"></i></a>
+                </div>
+            </div>
+        </section>
+    </section>
+    <!--about end-->
+    <!--contact starrt-->
+    <section id="contact" data-aos="zoom-out-down">
+        <div class="cont" data-aos="zoom-in-up">
+            <!-- POST GET PATCH DELETE -->
+            <form action="contact.php" method="POST">
+                <h1>let's Talk</h1> 
+                <input type="text"  name="firstName"  id="firstName" placeholder="First Name" required>
+                <input type="text" name="lastName" id="lastName" placeholder="Last Name" required>
+                <input type="email" name="email" id="email" placeholder="Email" required>
+                <input type="text" name="mobile"  id="mobile" placeholder="Mobile" required>
+                <h4>Type Your Message Here...</h4>
+                <textarea required name= "message" ></textarea>
+                <input type="submit" value="Send" id="button">
+            </form>
+        </div>
+    </section>
+    <!--contact end-->
+    <script src="script.js"></script>
+</body>
+</html>
